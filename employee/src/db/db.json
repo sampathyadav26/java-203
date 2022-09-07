@@ -1,0 +1,40 @@
+{
+  "Employee": [
+    {
+      "id": 101,
+      "name": "Ajju",
+      "batch": 202,
+      "salary": 16000
+    },
+    {
+      "id": 211,
+      "name": "Honey",
+      "batch": 210,
+      "salary": "20000"
+    },
+    {
+      "id": 222,
+      "name": "Sampath",
+      "batch": 208,
+      "salary": 20000
+    },
+    {
+      "id": 22111,
+      "name": "Rakesh",
+      "batch": "202",
+      "salary": "25000"
+    },
+    {
+      "id": 333,
+      "name": "srikanth",
+      "batch": "201",
+      "salary": 17000
+    },
+    {
+      "id": 22143,
+      "name": "Padhu",
+      "batch": 206,
+      "salary": 150000
+    }
+  ]
+}
