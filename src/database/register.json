@@ -1,0 +1,39 @@
+{
+  "register": [
+    {
+      "id": 1,
+      "firstname": "vijay",
+      "lastname": "mohan",
+      "email": "vijay123@gmail.com",
+      "password": "vijay123"
+    },
+    {
+      "id": 2,
+      "firstname": "bhagfdgya",
+      "lastname": "laxdfgdsmi",
+      "email": "bhagya123@gmdfgail.com",
+      "password": "bhagyadfg123"
+    },
+    {
+      "firstname": "vtryijay",
+      "lastname": "mohtryghan",
+      "email": "vijayhjky123@gmail.com",
+      "password": "vijgfyhjkay123",
+      "id": 3
+    },
+    {
+      "firstName": "sdf",
+      "lastName": "dsfgh",
+      "email": "dfdghj",
+      "password": "dsfghjk",
+      "id": 4
+    },
+    {
+      "firstName": "aaa",
+      "lastName": "aaa",
+      "email": "aaa",
+      "password": "aaa",
+      "id": 4
+    }
+  ]
+}
