@@ -1,0 +1,22 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"abc" ,
+            "qty":10,
+            "price":100
+        },
+        {
+            "id":2,
+            "name":"def" ,
+            "qty":15,
+            "price":200
+        },
+        {
+            "id":3,
+            "name":"xyz" ,
+            "qty":25,
+            "price":500
+        }
+    ]
+}

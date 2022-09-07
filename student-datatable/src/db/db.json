@@ -1,0 +1,69 @@
+{
+    "students":[
+        {
+            "id":1,
+            "studentname":"abc",
+            "email":"abc@gmail.com"
+        },
+        {
+            "id":2,
+            "studentname":"pqr",
+            "email":"pqr@gmail.com"
+        },
+        {
+            "id":3,
+            "studentname":"xyz",
+            "email":"xyz@gmail.com"
+        },
+        {
+            "id":4,
+            "studentname":"asd",
+            "email":"asd@gmail.com"
+        },
+        {
+            "id":5,
+            "studentname":"qwe",
+            "email":"qwe@gmail.com"
+        },
+        {
+            "id":6,
+            "studentname":"pop",
+            "email":"pop@gmail.com"
+        },
+        {
+            "id":7,
+            "studentname":"bcs",
+            "email":"bcs@gmail.com"
+        },
+        {
+            "id":8,
+            "studentname":"bs",
+            "email":"bs@gmail.com"
+        },
+        {
+            "id":9,
+            "studentname":"charan",
+            "email":"charan@gmail.com"
+        },
+        {
+            "id":10,
+            "studentname":"sekhar",
+            "email":"sekhar@gmail.com"
+        },
+        {
+            "id":11,
+            "studentname":"Rahman",
+            "email":"Rahman@gmail.com"
+        },
+        {
+            "id":12,
+            "studentname":"Rahi",
+            "email":"Rahi@gmail.com"
+        }
+
+
+
+
+
+  ] 
+}
