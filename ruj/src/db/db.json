@@ -1,0 +1,24 @@
+{
+  "Student": [
+    {
+      "id": 3,
+      "name": "Nani",
+      "company": "Infosys"
+    },
+    {
+      "id": 8,
+      "name": "mitra",
+      "company": "hcl"
+    },
+    {
+      "id": 9,
+      "name": "zxczc",
+      "company": "www"
+    },
+    {
+      "id": 10,
+      "name": "chintu",
+      "company": "Cogs"
+    }
+  ]
+}

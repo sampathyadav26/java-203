@@ -1,0 +1,43 @@
+.changing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: rgb(0, 51, 255) 2px solid;
+  margin: -2px;
+  padding: 50px;
+  border-radius: 25px;
+
+  box-shadow: 12px 25px 25px 12px rgba(0, 149, 255, 0.5);
+}
+
+/* .changing-border{
+  border: #04AA6D;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(47, 112, 232);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 255, 255);
+}
+
+.active {
+  background-color: #04AA6D;
+}

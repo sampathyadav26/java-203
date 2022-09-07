@@ -1,0 +1,22 @@
+{
+   "student" :[
+    {
+        "id":1,
+        "name":"vijay",
+        "branch":"java",
+        "percentage":90
+    },
+    {
+        "id":2,
+        "name":"bhagya",
+        "branch":"mech",
+        "percentage":65
+    },
+    {
+        "id":3,
+        "name":"shashi",
+        "branch":"test",
+        "percentage":87
+    }
+   ]
+}

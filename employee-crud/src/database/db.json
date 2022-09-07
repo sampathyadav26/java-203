@@ -1,0 +1,43 @@
+{
+    "employee":[
+        {
+            "id":1,
+            "name":"vijay",
+            "domain":"java",
+            "salary":100000
+
+        },
+        {
+            "id":2,
+            "name":"sona",
+            "domain":"java",
+            "salary":80000
+
+        },
+        {
+            "id":1,
+            "name":"bujji",
+            "domain":"testing",
+            "salary":10000
+
+        },
+        {
+            "id":1,
+            "name":"shiva",
+            "domain":"cad",
+            "salary":89000
+
+        },
+        {
+            "id":1,
+            "name":"pravalika",
+            "domain":"idm",
+            "salary":980000
+
+        }
+        
+        
+
+        
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Bhagyalaxmi",
+      "course": "testing"
+    },
+    {
+      "id": 2,
+      "name": "Paru",
+      "course": "testin"
+    },
+    {
+      "id": 3,
+      "name": "Shiva",
+      "course": "testing"
+    },
+    {
+      "id": 4,
+      "name": "Mohan",
+      "course": "java"
+    },
+    {
+      "id": "5",
+      "name": "Shashi",
+      "course": "hm"
+    },
+    {
+      "id": "6",
+      "name": "Sai",
+      "course": "petend design"
+    }
+  ]
+}
