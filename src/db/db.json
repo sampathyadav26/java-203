@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "id": "13212",
+      "name": "ramesh",
+      "course": "java"
+    },
+    {
+      "id": "13214",
+      "name": "shiva",
+      "course": "reactjs"
+    },
+    {
+      "id": "13215",
+      "name": "mannu",
+      "course": "java"
+    },
+    {
+      "id": "22053",
+      "name": "sravani",
+      "course": "python"
+    }
+  ]
+}

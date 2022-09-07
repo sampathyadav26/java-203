@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.headingstyle
+  {
+     background-color: #757575;
+    text-shadow: .1em .1em 0 rgb(44, 51, 41);
+    box-sizing: border-box;
+    margin: 0;
+    min-block-size: 100%;
+    font-family: 'Fugaz One', cursive;
+    
+    display: grid;
+    place-content: center;
+    padding: 5vmin;
+    font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  max-inline-size: 15ch;
+  block-size: 100%;
+  background: rgb(16, 100, 21);
+  color: hsl(200 50% 90%);
+  }
+  /* *{
+    background-color: rgb(16, 100, 21);;
+  }
+   */
