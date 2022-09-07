@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "firebase": "^9.9.3",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
