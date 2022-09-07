@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="./01.js"></script>
+</head>
+
+<body>
+    <input type="button" value="Alert Button" onclick="some()" />
+    <input type="button" value="Conform Button" onclick="some1()" />
+    <input type="button" value="Promt Button" onclick="some2()" />
+
+    <h3>Using ForEach</h3>
+    <p id="demo"></p>
+
+    <h4>Using Filter Method:</h4>
+    <p id="demo1"></p>
+
+    <h4>Using Map Method:</h4>
+    <h3>Using map greater than 18 numbers are:</h3>
+    <p id="demo2"></p>
+    
+    <script>
+        const number = [45, 4, 9, 16, 25];
+        let txt = "";
+        number.forEach(myfun);
+        document.getElementById("demo").innerHTML = txt;
+
+        function myfun(value) {
+            txt += value+"<br>";
+        }
+
+        const num2 = number.map(mymapfun);
+        document.getElementById("demo1").innerHTML = num2;
+        function mymapfun(value){
+            return value*2;
+        }
+
+        const num = number.filter(myfilterfun);
+        document.getElementById("demo2").innerHTML = num;
+        function myfilterfun(value){
+            return value>16;
+        }
+    </script>
+</body>
+
+</html>

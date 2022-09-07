@@ -1,0 +1,75 @@
+Flow Controls Basically Divided Into 3 types
+
+ 1.Selection						2.Iterative Statement 	3.Transfer Statements
+ ->if else							->do While				->Break
+ ->if else--if else(nested if) 		->while					->return
+ ->Switch							->for loop				->continue
+ 									->Inner For Loop		->try-catch-finally
+ 									->ForEach				->Assert Statment
+ 									
+------------------------------------------------------------------------------------------
+If Else SYN
+
+if(condition){
+	statment;
+}else{
+	statment;
+}
+
+-----------------------------------------------------------------------------------------
+nested if SYN
+
+if(condition){
+	statment;
+}else if{
+	statment;
+}else{
+	statment;
+}
+-----------------------------------------------------------------------------------------
+Switch SYN
+
+Switch(Choice){
+	case1: statment;
+		   break;
+	case2: statment;
+		   break;
+  default: statment;
+		  
+}
+
+----------------------------------------------------------------------------------------
+do while SYN
+initilization statment;
+do{
+	statment;
+	increment/decrement;
+}while(condition);
+----------------------------------------------------------------------------------------
+While SYN
+while(condition){
+	Statment;
+	increment/decrement statment;
+}
+----------------------------------------------------------------------------------------
+ForLoop SYN
+
+for(intitlization;condition;incre/decre){
+	statment;
+}
+
+--------------------------------------------------------------------------------------
+Nested For Loop SYN
+
+for(intitlization;condition;incre/decre){
+	for(intitlization;condition;incre/decre){
+	statment;
+	}
+}
+------------------------------------------------------------------------------------
+forEach Loop SYN
+
+for(var i: array){
+	Statment;
+}
+

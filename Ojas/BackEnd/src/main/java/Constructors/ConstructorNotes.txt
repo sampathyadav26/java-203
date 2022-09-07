@@ -1,0 +1,2 @@
+Constructor is used to intilize the values during run time
+-> Class name must be same as constructor name
