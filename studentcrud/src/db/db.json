@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": "22080",
+      "name": "MITHRA",
+      "course": "FULL STACK DEVELOPER",
+      "sal": "15000"
+    },
+    {
+      "id": "22078",
+      "name": "ANAND",
+      "course": "FULL STACK DEVELOPER",
+      "sal": "15000"
+    },
+    {
+      "id": "22088",
+      "name": "AVI",
+      "course": "FULL STACK DEVELOPER",
+      "sal": "15000"
+    },
+    {
+      "id": "22079",
+      "name": "HARI",
+      "course": "FULL STACK DEVELOPER",
+      "sal": "15000"
+    },
+    {
+      "id": "22081",
+      "name": "ESHU",
+      "course": "FULL STACK DEVELOPER",
+      "sal": "15000"
+    }
+  ]
+}

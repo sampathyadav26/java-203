@@ -1,0 +1,33 @@
+{
+  "user": [
+    {
+      "name": "siva",
+      "email": "ssreddy@gmail.com",
+      "password": 98788
+    },
+    {
+      "id": 32,
+      "name": "dcgffdg",
+      "company": "gdfgdfgfd"
+    },
+    {
+      "id": 123,
+      "name": "mithra",
+      "company": "mithra"
+    },
+    {
+      "id": 124
+    },
+    {
+      "id": 125
+    },
+    {
+      "id": 126
+    },
+    {
+      "id": 127,
+      "name": "shashank",
+      "company": "shashi"
+    }
+  ]
+}
