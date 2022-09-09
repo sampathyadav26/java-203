@@ -1,0 +1,210 @@
+ReactJs + Firebase Application Development Steps
+================================================
+step1:open firebase database url
+https://console.firebase.google.com
+
+step2:create a firebase database project
+  ->click AddProject
+    ->Project Name:fb-react
+      ->click continue
+         ->Disable  Google Analytics for this project
+             ->Create Project
+                ->Continue
+step3:select left side build within that firestore database
+       ->Click Create Database
+         ->select start in test mode
+            ->click Next
+              ->Select firestore location(us-central)
+                 ->click Enable
+step4:Click start collection(Collection  = Database Name(SQL))
+      ->provide collection Id name(products)
+         ->Next
+
+            ->Generate Document Id by clicking Auto-Id
+               ->Enter the fields
+                  pid   -  number  0
+                  pname  - string
+                  qty    - number  0
+                  price  - number  0
+                 -->Click save
+step5:Go to Settings select web option(</>)
+       ->provide App Name
+          -fb-react
+            ->Click Register App button
+
+          Keep the following information
+          npm install firebase
+          // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBybc_Ese0V4yGW9pCaScqEs0BjrWHAXPs",
+  authDomain: "fb-react-6ad79.firebaseapp.com",
+  projectId: "fb-react-6ad79",
+  storageBucket: "fb-react-6ad79.appspot.com",
+  messagingSenderId: "419906524508",
+  appId: "1:419906524508:web:60e6f4fba7f4c60cdf9d99"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+step6:create a new React Js Project
+  >npx create-react-app firebase-reactjs
+
+step7:switch to the project location
+  >cd firebase-reactjs
+
+step8: open your project in to your editor(VSCode)
+ >code .
+
+step9:install bootstrap in to your project
+ >npm install --save bootstrap
+
+step10: add the following statement in to your App.js/index.js for bootstrap adding
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+step11:for routing install react-router-dom
+>npm install react-router-dom
+
+step12:install firebase
+> npm install firebase
+
+step13:Go to your project root folder(src) and create firebase configuration
+firebase.config.js
+
+import { initializeApp } from "firebase/app";
+import {getFirestore} from "@firebase/firestore";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBybc_Ese0V4yGW9pCaScqEs0BjrWHAXPs",
+  authDomain: "fb-react-6ad79.firebaseapp.com",
+  projectId: "fb-react-6ad79",
+  storageBucket: "fb-react-6ad79.appspot.com",
+  messagingSenderId: "419906524508",
+  appId: "1:419906524508:web:60e6f4fba7f4c60cdf9d99"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+export {db};
+
+step14:Create a Create.js component with in src/components
+import React, { useState } from "react";
+import { db } from "../firebase.config";
+import {
+    collection,
+    onSnapshot,
+    addDoc
+  } from "firebase/firestore"
+function Create() {
+  const [id, setId] = useState();
+  const [name, setName] = useState();
+  const [qty, setQty] = useState();
+  const [price, setPrice] = useState();
+  const ref = collection(db, "products");
+  const addProduct = (e) => {
+    e.preventDefault();
+    addDoc(ref,{ id, name, qty, price });
+    alert("Successfully Product added.....");
+  };
+  return (
+    <div className="container">
+      <form>
+        <div className="mb-3">
+          <label htmlFor="exampleInputpid" className="form-label">
+            Product Id
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="pid"
+            value={id}
+            onChange={(e) => setId(e.target.value)}
+          />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="exampleInputpname" className="form-label">
+            Product Name
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="pname"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="exampleInputqty" className="form-label">
+            Product Quantity
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="qty"
+            value={qty}
+            onChange={(e) => setQty(e.target.value)}
+          />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="exampleInputprice" className="form-label">
+            Product Price
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="price"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary" onClick={addProduct}>
+          Submit
+        </button>
+        <br />
+        {id}
+        {name}
+        {qty}
+        {price}
+      </form>
+    </div>
+  );
+}
+
+export default Create;
+
+step15:add Create.js in to your App.js
+import "./App.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Create from "./components/Create";
+function App() {
+  return (
+    <div className="App">
+      <div className="container">
+        <div className="card">
+          <div className="card-header">
+            <h1>ReactJs + Firebase Application</h1>
+          </div>
+          <div className="card-body">
+            <Create />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+step16:Create a List.js component
+
+
