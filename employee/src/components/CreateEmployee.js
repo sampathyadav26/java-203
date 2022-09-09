@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import EmployeeServices from "../Service/EmployeeServices";
 import { useNavigate } from "react-router-dom";
 
-function CreateEmployee() {
+function CreateEmployee() {                   
 
   const [id, setId] = useState();
   const [name, setName] = useState();
