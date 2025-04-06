@@ -35,6 +35,7 @@ function Formdata() {
             <th>Name</th>
             <th>Pass</th>
             <th>Email</th>
+            <th>Chandra</th>
           </tr>
         </thead>
         <tbody>{tableRows}</tbody>
